@@ -1,0 +1,20 @@
+{
+  "name": "granola-notion-crm",
+  "version": "1.0.0",
+  "description": "Granola webhook → Notion CRM with Claude AI insights",
+  "main": "granola-notion-backend.js",
+  "scripts": {
+    "start": "node granola-notion-backend.js",
+    "dev": "nodemon granola-notion-backend.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
